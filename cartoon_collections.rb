@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(powers_combined)
   powers_combined.collect do |element|
-    
+    element << ""
 end
 
 def long_planeteer_calls# code an argument here
