@@ -6,8 +6,7 @@ end
 
 def summon_captain_planet(powers_combined)
   go_planet = powers_combined.collect do |element|
-    element.capitalize
-    element << "!"
+    element.capitalize + "!"
   end
   go_planet
 end
