@@ -5,9 +5,9 @@ def roll_call_dwarves(dwarf_array)
 end
 
 def summon_captain_planet(powers_combined)
-  go_planet = powers_combined.map do |element|
+  go_planet = powers_combined.map do {|element|
     element.capitalize
-    element << "!"
+    element << "!"}
   end
   go_planet
 end
